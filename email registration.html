@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+</head>
+<body>
+<h3>KLU REGISTRATION FORM</h3>
+<form action="#">
+<table>
+  
+    <td>NAME:</td>
+    <td>
+      <input type="text"id="name"pattern="[A-Za-z]+><br><br>
+    </td>
+  
+<tr>
+<td>CONTACT:</td>
+<td>
+<input type="tel"id="contact_number"name="contact_number"pattern="[0-9]{10}"title="Please enter a 10-digit number"maxlength="10"required><br><br>
+</td>
+</tr>
+<tr>
+<td>GENDER</td>
+<td>
+<input type="radio"name="gender"value="M"required>M
+<input type="radio"name="gender"value="F"required>F
+</td>
+</tr>
+<tr>
+<td>Languages known:</td>
+<td>
+<input type="checkbox"name=""language"value="English">ENGLISH
+<input type="checkbox"name=""language"value="Hindi">HINDI
+<input type="checkbox"name=""language"value="Telugu">TELUGU
+<input type="checkbox"name=""language"value="Kannada">KANNADA
+</td>
+</tr>
+<tr>
+<td>HIGHEST QUALIFICATION:</td>
+<td>
+<select name="qualification">
+<option value="NA">NOT APPLICABLE</option>
+<option value="SSC">SSC</option>
+<option value="Inter">INTER</option>
+<option value="Graduation">GRADUATION</option>
+<option value="Post Graduation">POST GRADUATION</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>ADDRESS:</td>
+<td>
+<textarea name="address" cols="30" rows="5"></textarea>
+</td>
+</tr>
+<tr>
+<td>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
